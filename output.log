@@ -1,0 +1,8 @@
+nohup: 忽略输入
+seed: 123456
+total_parameters_count: 34774530
+train_parameters_count: 34758658
+start train model...
+/home/a1002/anaconda3/envs/parallel/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:136: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+('Epoch: 0 Step: 99 CurrLoss: 6.12474 TotalLoss: 6.12474 Percent: 0.00087', ['a a a a a a a a <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos> <eos>'])
