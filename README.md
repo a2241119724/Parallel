@@ -19,6 +19,4 @@ nohup python -u train.py --is_scheduler --device cuda:0 --version V2 --lr 5e-5 >
 1e-4
 5e-5
 3531753
-
-# test
 nohup python -u train.py --num_encoder_layers 3 --num_decoder_layers 3 --device cuda:1 --version V3 --lr 1e-4 > output_V3.log 2>&1 &
